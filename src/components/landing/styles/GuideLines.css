@@ -1,0 +1,18 @@
+.guidelines_main_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 6rem;
+  padding-top: 4rem;
+}
+.card {
+  width: 200px;
+  height: 260px;
+  text-align: center;
+  background-color: rgb(219, 158, 45);
+  border-radius: 10px;
+}
+
+.guidelines_card_div {
+  margin: 1rem;
+}

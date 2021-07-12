@@ -1,15 +1,5 @@
 import React, { useState } from 'react';
-import {
-  Form,
-  Input,
-  Cascader,
-  Select,
-  Row,
-  Col,
-  Checkbox,
-  Button,
-  AutoComplete,
-} from 'antd';
+import { Form, Input, Cascader, Select, Button, AutoComplete } from 'antd';
 const { Option } = Select;
 const residences = [
   {
@@ -51,7 +41,7 @@ const formItemLayout = {
       span: 24,
     },
     sm: {
-      span: 8,
+      span: 6,
     },
   },
   wrapperCol: {
@@ -59,7 +49,7 @@ const formItemLayout = {
       span: 24,
     },
     sm: {
-      span: 16,
+      span: 12,
     },
   },
 };
@@ -70,8 +60,8 @@ const tailFormItemLayout = {
       offset: 0,
     },
     sm: {
-      span: 16,
-      offset: 8,
+      span: 12,
+      offset: 6,
     },
   },
 };
@@ -117,10 +107,6 @@ function RegistrationForm() {
       form={form}
       name="register"
       onFinish={onFinish}
-      initialValues={{
-        residence: ['zhejiang', 'hangzhou', 'xihu'],
-        prefix: '86',
-      }}
       scrollToFirstError
     >
       <Form.Item

@@ -5,7 +5,6 @@ import PatientByHospital from './PatientByHospital';
 function Doctor() {
   return (
     <>
-      <h1>Doctor</h1>
       <DailyStatCards />
       <PatientByHospital />
     </>

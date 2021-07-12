@@ -4,7 +4,6 @@ import NormalLoginForm from './LoginForm';
 function Auth() {
   return (
     <>
-      <h1>Login</h1>
       <NormalLoginForm />
     </>
   );
